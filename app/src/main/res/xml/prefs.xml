@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="알림 설정" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="swt"
+            android:summaryOn="체크하세요"
+            android:title="알림 여부" />
+        <Preference
+            android:key="time"
+            android:title="시간 설정" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="앱 데이터 설정" >
+        <Preference
+            android:key="loc"
+            android:title="지역 정보 초기화" />
+
+        <!--
+             <EditTextPreference
+            android:title="지역정보 초기화"
+            android:key="loc"
+             />
+        -->
+
+        <Preference
+            android:title="뉴스 열람 기록 초기화"
+            android:key="news"  />
+    </PreferenceCategory>
+
+</PreferenceScreen>

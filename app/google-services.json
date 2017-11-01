@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "779149876299",
+    "firebase_url": "https://goodmorning-ca42b.firebaseio.com",
+    "project_id": "goodmorning-ca42b",
+    "storage_bucket": "goodmorning-ca42b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779149876299:android:18067b26e8f2953c",
+        "android_client_info": {
+          "package_name": "com.kosta148.team1.goodmorning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779149876299-g2oplfmlo231tbp7hvpmqd714kq9olac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kosta148.team1.goodmorning",
+            "certificate_hash": "e210bed07b8fbe072edebe7757cedc5d526298aa"
+          }
+        },
+        {
+          "client_id": "779149876299-70b6nor0g0m9n1phucjthi46su2qjued.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQV7CQnr9rqfhBIcnwk0ZbiEv9237rG3E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779149876299-70b6nor0g0m9n1phucjthi46su2qjued.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+﻿MoringMate v1.0.3
+
+미세먼지 예보 추가 (한국환경공단)
+
+http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMinuDustFrcstDspth?searchDate=2017-05-06&ServiceKey=WiWFmvhwlbZEnbjJ1BtY%2FMZlVVF12Q3yOw6lukrHOEl84d774fMzsACXiIf4mCg4jYv3ouh8mjL0M4NzjgFuJw%3D%3D
+요청 URL (날짜와 API 키 들어감)
+
+WeatherFragment 클래스의 getJsonData() 메서드에서 URL 요청을 보내고 JSON 데이터를 받아옴.
+
+JSON 파싱을 통해 필요한 데이터를 빼내고,
+
+데이터는 다시 AirQuality 클래스로 보내서 가공하고, getter를 통해 받아내서 화면에 표시 및
+
+다이얼로그 띄울때 활용하는 방식.

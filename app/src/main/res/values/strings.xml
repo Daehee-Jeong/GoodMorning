@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">모닝 메이트</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">환경설정</string>
+    
+    <string-array name="timeHuman">
+        <item>7시</item>
+        <item>8시</item>
+        <item>9시</item>
+        <item>10시</item>
+    </string-array>
+    <string-array name="time">
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+    </string-array>
+</resources>
